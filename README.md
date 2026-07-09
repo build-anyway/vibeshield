@@ -11,6 +11,13 @@ It parses the native Abstract Syntax Tree (AST) using Python's standard library 
 3. **eval/exec Prevention:** Flags all instances of raw dynamic code evaluation.
 4. **Lazy Exception Alert:** Flags empty `except: pass` blocks which AI models frequently use to quietly swallow execution failures.
 
+## Install
+
+```bash
+git clone https://github.com/build-anyway/vibeshield.git
+cd vibeshield
+```
+
 ## Usage
 
 ```bash
